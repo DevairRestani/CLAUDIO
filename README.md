@@ -30,6 +30,55 @@ The CLI agent market is growing, but most solutions are "black boxes." Claudio f
 - [ ] **Phase 3:** Local file indexing (RAG) for large projects.
 - [ ] **Phase 4:** Native Docker integration for secure command execution.
 
+## ✨ Planned Features (inspired by Claude Code)
+
+The features below are based on the functionalities of Claude Code (Anthropic) and represent what Claudio plans to implement to match and surpass the proprietary tool — with full model freedom.
+
+### 🖥️ Multi-Platform Integration
+- [ ] **Native Terminal Agent** — context-aware agent running directly in the shell.
+- [ ] **VS Code Extension** — live sidebar with visual diffs and inline code changes.
+- [ ] **JetBrains Extension** — integration for IntelliJ, WebStorm, and other JetBrains IDEs.
+- [ ] **Web Interface** — use Claudio from any browser without local installation.
+- [ ] **Mobile (iOS/Android)** — assign, review, and tweak tasks on the go.
+- [ ] **Slack Bot** — coding assistance integrated into collaborative Slack environments.
+
+### 🤖 Autonomous & Agentic Coding
+- [ ] **End-to-End Development Cycles** — code generation, refactoring, debugging, testing, and explanations across entire repositories.
+- [ ] **Full Codebase Context** — understands the entire project without additional indexing servers or setup.
+- [ ] **Long-Running Sessions** — execute multi-step programming tasks consistently over extended sessions.
+- [ ] **Auto Mode** — proactively finds and runs repetitive or required code actions with guardrails.
+
+### ⏪ Checkpoint System ("Time-Travel Debugging")
+- [ ] **Automatic State Snapshots** — saves code state before every AI-generated change.
+- [ ] **Instant Restore (Rewind)** — restore code, conversation, or both to any previous checkpoint (`/rewind` command).
+- [ ] **Git Integration** — works alongside version control, specifically safeguarding AI-initiated edits.
+
+### 🔀 Subagents & Hooks
+- [ ] **Specialized Sub-Agents** — create dedicated agents (e.g., one for migrations, one for testing) that run concurrently and independently.
+- [ ] **File/Directory Hooks** — react to file or directory changes for complex workflow automation.
+- [ ] **Agent Parallelization** — run multiple agents simultaneously for full codebase management.
+
+### 🛠️ Developer Tasks & Commands
+- [ ] **Bug Fixing & Debugging** — identify and fix bugs across the codebase with natural language.
+- [ ] **Multi-File Refactoring** — rename, restructure, and refactor across many files at once.
+- [ ] **Automated Testing & CI/CD Integration** — write and run tests, integrate with CI/CD pipelines.
+- [ ] **Automated Pull Request Handling** — create, review, and merge PRs through natural language commands.
+- [ ] **Natural-Language Codebase Explanations** — ask questions about any part of the codebase and get clear explanations.
+- [ ] **Documentation Generation** — search, cross-reference, and generate documentation automatically.
+- [ ] **DevOps / Housekeeping via CLI** — run routine dev-ops tasks through bash/CLI commands.
+
+### 🔌 API & SDK
+- [ ] **Agent SDK** — build custom workflows and agents with full context, permission, and subagent management.
+- [ ] **Custom CI/CD Integration** — connect Claudio to any custom pipeline or compliance workflow.
+- [ ] **`claudio.md` Project Files** — per-project configuration files for easy onboarding and advanced setup.
+
+### 🏢 Enterprise Features
+- [ ] **SSO & User Permissions** — Single Sign-On and fine-grained permissions management.
+- [ ] **Usage Management & Audit Logs** — track usage across teams for compliance and billing.
+- [ ] **External Service Integrations** — connect to Microsoft 365, SharePoint, OneDrive, Outlook, and Teams for cross-source context.
+
+---
+
 ## 🤝 How to contribute?
 
 We need architects, prompt engineers, and developers passionate about productivity.
