@@ -4,7 +4,7 @@
 
 **Claudio** is an open-source, agnostic alternative to Claude Code. While proprietary tools try to lock you into a single model or vendor, Claudio was born to give developers freedom.
 
-Use **any LLM** (Claude 4.6/4, GPT-5.4, Gemini 3.1, DeepSeek) or **local models** (via Ollama) to edit code, run tests, and manage your workflow directly from the terminal.
+Use **any LLM** (Claude 4.6, GPT-5.4, Gemini 3.1, DeepSeek) or **local models** (via Ollama) to edit code, run tests, and manage your workflow directly from the terminal.
 
 ---
 
